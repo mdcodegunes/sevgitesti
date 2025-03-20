@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgi Testi 💖</title>
+    <script>
+        function showResponse(answer) {
+            let message = "";
+            if (answer === "Hiç") {
+                message = "Eh İşte bile değil mi aşkım? 🥺💔";
+            } else if (answer === "Eh İşte") {
+                message = "Çok değil mi canım? 😢💕";
+            } else if (answer === "Çok") {
+                message = "Teşekkür ederim aşkım benim! Seninle her anım çok özel! 😙💖";
+            }
+            alert(message);
+        }
+    </script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #ffe6f2;
+        }
+        h1 {
+            color: #ff1493;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <h1>Beni ne kadar çok seviyorsun Balım, Berfinim, Güzelim, Aşkım, Sincabım? 💕</h1>
+    <button onclick="showResponse('Hiç')">Hiç 💔</button>
+    <button onclick="showResponse('Eh İşte')">Eh İşte 😢</button>
+    <button onclick="showResponse('Çok')">Çok 😍</button>
+</body>
+</html>
